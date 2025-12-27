@@ -1,0 +1,98 @@
+/*обнуление стилей*/
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: black;
+    font-family: Sen;
+    background-color:black
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+._container{
+    max-width: 1346px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+/* -----------------------------Header--------------------------- */
+.header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.header__container{
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+    
+}
+.header__logo{
+    color: #FFFFFF;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-weight: 100; /* максимальная жирность */
+    font-size: 26px; /* размер подберите под задачу */
+    letter-spacing: 1px; /* небольшое расстояние между буквами (как на лого) */
+    transform: scaleY(1.4);
+
+    
+}
+.header__menu{
+    margin: 0px 0px 0px 133px;
+    margin-left: auto
+}
+.menu{}
+.menu__list{
+    display: flex;
+    margin-left: auto
+}
+.menu__item{
+    /* margin: 0px 24px 0px 0px; */
+    padding: 10px 15px;
+    border: 1px solid white;
+    padding: 32px 24px;
+}
+
+/* :not(:last-child) */
+.menu__link{
+    color: #FFFFFF;
+    line-height:171% ;
+    
+    
+}
+.menu__link:hover{
+    border-bottom: 1.5px solid #FFFFFF;
+}
