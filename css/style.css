@@ -63,9 +63,9 @@ body{
 .header__logo{
     color: #FFFFFF;
     font-family: 'Impact', 'Arial Black', sans-serif;
-    font-weight: 100; /* максимальная жирность */
-    font-size: 26px; /* размер подберите под задачу */
-    letter-spacing: 1px; /* небольшое расстояние между буквами (как на лого) */
+    font-weight: 100; 
+    font-size: 26px; 
+    letter-spacing: 1px; 
     transform: scaleY(1.4);
 
     
